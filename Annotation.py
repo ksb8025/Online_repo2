@@ -9,6 +9,7 @@ import cv2
 import numpy as np
 import os
 
+
 # Parameters for drawing
 drawing = False  # True if the mouse is pressed
 ix, iy = -1, -1  # Initial x, y coordinates of the region
