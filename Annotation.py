@@ -118,7 +118,7 @@ def segment_images_in_folder(folder_path):
                 print(f"Progress saved at image {idx}. Exiting...")
                 cv2.destroyAllWindows()
                 return
-            elif key == ord("b"):
+            elif key == ord("z"):
                 if rectangles:
                     removed_rect = rectangles.pop()  # Remove the last rectangle
                     print(f"Removed rectangle: {removed_rect}")
