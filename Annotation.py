@@ -131,6 +131,7 @@ def segment_images_in_folder(folder_path):
                 else:
                     print("No rectangles to remove!")            
 
+
     cv2.destroyAllWindows()
 
 
