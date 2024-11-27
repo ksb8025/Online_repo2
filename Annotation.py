@@ -142,3 +142,4 @@ def segment_images_in_folder(folder_path):
 if __name__ == "__main__":
     folder_path = r"C:\Users\ksb80\OneDrive\Desktop\U.U\2024-2\SWDev\Online_Repo2\ImageSet"
     segment_images_in_folder(folder_path)
+    print("hi")
